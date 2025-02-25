@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(21, 21, 21);
+    color: rgb(213, 212, 212);
+    height: 70px;
+    /* Sesuaikan dengan tinggi logo */
+    position: sticky;
+    top: 0px;
+}
+
+.nav_link {
+    display: flex;
+    font-size: 18px;
+    list-style-type: none;
+    align-items: center;
+    /* Supaya teks sejajar dengan logo */
+}
+
+.nav_link li {
+    margin: 0 15px;
+    /* Kurangi margin supaya lebih padat */
+}
+
+.nav_link img {
+    width: 62px;
+    /* Sesuai dengan ukuran logo */
+    height: 62px;
+}
+
+.nav_link a {
+    color: rgb(213, 212, 212);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav_link a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+.carousel {
+
+    margin-top: 20px;
+    margin-left: 70px;
+    color: rgb(213, 212, 212);
+    display: flex;
+}
+
+
+
+.populer-content {
+
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(40, 40, 40);
+    width: 1000px;
+    
+    display: flex;
+
+}
+
+.populer-content img {
+    margin: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+
+}
+

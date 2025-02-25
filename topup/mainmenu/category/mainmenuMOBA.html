@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simpank Store</title>
+    <link rel="stylesheet" href="../mainmenu.css">
+    <link rel="icon" type="image/x-icon" href="assetimg/logoss.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="navbar">
+            <ul class="nav_link" style="list-style-type: none;">
+                <li><img src="assetimg/logoss.png" alt="logo" width="62px" height="62px"></li>
+                <li class="name">Simpank Store</li>
+                <li class="li"><a href="../mainmenu.html">Home</a></li>
+                <li class="li"><a href="../cekTransaksi/cektransaksi.php">Cek Transaksi</a></li>
+
+                <!-- Category dengan Dropdown -->
+                <li class="li dropdown">
+                    <a href="#">Category </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="mainmenuBR.html">Battle Royal</a></li>
+                        <li><a href="mainmenuMOBA.html">MOBA</a></li>
+                    </ul>
+                </li>
+                <!-- Akhir Category -->
+
+            </ul>
+        </div>
+
+        <div class="content-img">
+            <center><img src="assetimg/carousel f1.png" width="80%" height="80%"></center>
+        </div>
+        <div class="container-content">
+
+            <div class="carousel">
+                <img src="assetimg/api-removebg-preview.png" type="icon" width="2%" height="2%">
+                <h3>Populer Top Up</h3>
+                <img src="assetimg/api-removebg-preview.png" type="icon" width="2%" height="2%">
+            </div>
+
+            <div class="populer-content">
+                <a href="../../topupml/topupml.html"><img class="imgP" src="assetimg/logoemel.webp" width="120px" height="110px"></a>
+                <a href="../../topuphok/topuphok.html"><img class="imgP" src="assetimg/logohok.png" width="120px" height="110px"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <style>
+        body {
+            background-color: rgb(31, 31, 31);
+        }
+
+        .content-img {
+            background-color: rgb(26, 26, 26);
+        }
+
+        /* Style Dropdown */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 150px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 0;
+            list-style: none;
+        }
+
+        .dropdown-menu li {
+            padding: 0;
+        }
+
+        .dropdown-menu a {
+            text-decoration: none;
+            color: rgb(221, 221, 221);
+            display: block;
+            padding: 10px;
+        }
+
+        .dropdown-menu a:hover {
+            background-color: #555;
+        }
+
+        /* Tampilkan dropdown saat hover */
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+
+</body>
+
+</html>

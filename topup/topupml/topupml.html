@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Top Up Mobile Legends</title>
+    <link rel="stylesheet" href="topupml.css">
+    <link rel="icon" type="image/x-icon"
+        href="assetimg/logoss.webp">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="navbar">
+            <ul class="nav_link" style="list-style-type: none;">
+                <li><img src="assetimg/logoss.webp"
+                        alt="logo" width="62px" height="62px"></li>
+                <li class="name">Simpank Store</li>
+                <li class="li"><a href="../mainmenu/mainmenu.html">Home</a></li>
+                <li class="li"><a href="../mainmenu/cekTransaksi/cektransaksi.php">Cek Transaksi</a></li>
+            </ul>
+        </div>
+        <div class="container-carousel">
+
+
+            <div class="content-img">
+                <!-- Tambahkan konten di sini -->
+                <center><img src="assetimg/carouseltopupml.png " width="90%" height="90%"></center>
+
+            </div>
+
+            <div class="logoml">
+
+                <img src="assetimg/logoemel.webp" width="110px" height="110px">
+                <h3>Mobile Legends</h3>
+                <h4>Moonton</h4>
+            </div>
+        </div>
+        <div class="container-form">
+
+            <div class="background-form">
+                <form class="form-topup" action="topupml.php" method="post">
+
+                    <br>
+                    <label for="id">Masukkan ID User :</label> <br>
+                    <input class = "input-form" type="text" id="id" name="id"> <br> <br>
+                    <label for="id_server">Masukkan SERVER User:</label> <br>
+                    <input class = "input-form" type="text" id="server" name="id_server">  <br> <br>
+                    <label for="nominal">Pilih Nominal Diamond:</label> <br>
+                    <select class = "input-dropdown" id="nominal" name="nominal">
+
+                        <option class = "dropdown" value="10">10 Diamond</option>
+                        <option class = "dropdown" value="20">20 Diamond</option>
+                        <option class = "dropdown" value="50">50 Diamond</option>
+                        <option class = "dropdown" value="100">100 Diamond</option>
+                        <option class = "dropdown" value="150">150 Diamond</option>
+                    </select> <br> <br>
+                    <label for="pembayaran">Pilih Nominal Diamond</label> <br>
+                    <select class = "input-dropdown" id="pembayaran" name="pembayaran"> <br>
+                        <option class = "dropdown" value="Gopay">Gopay</option>
+                        <option class = "dropdown" value="Ovo">Ovo</option>
+                        <option class = "dropdown" value="Dana">Dana</option>
+                        <option class = "dropdown" value="Qris">Qris</option>
+                        <option class = "dropdown" value="Transfer Bank">Transfer Bank</option>
+
+
+                    </select> <br> <br>
+                    
+                    <label for="id">Jumlah Pembelian :</label> <br>
+                    <input class = "input-form" type="text" id="jumlah" name="jumlah"> <br> <br>
+
+
+                    <button class="submit" type="submit"> Beli Sekarang</button>
+                </form>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="rating">
+            
+            <p class="judul-rating">Ulasan Dan Rating </p> <br>
+            <div class="rating-img">
+                <p class = "angka-rating">4.99</p>
+                <img  src="assetimg/stars-removebg-preview.png " type="icon" width="15%" height="15%">
+                <img  src="assetimg/stars-removebg-preview.png " type="icon" width="15%" height="15%">
+                <img  src="assetimg/stars-removebg-preview.png " type="icon" width="15%" height="15%">
+                <img  src="assetimg/stars-removebg-preview.png " type="icon" width="15%" height="15%">
+              
+
+            </div>
+        </div>
+        
+        <div class="customer-service">
+
+            <img src="assetimg/headset-removebg-preview.png" type = "icon" width="100px" height = "100px">
+            <div class="customer-text">
+
+                <p class="customer-text1">BUTUH BANTUAN?</p> 
+                <p class="customer-text2">Hubungi Contact Kami Disamping</p>
+                
+            </div>
+
+        </div>
+
+        <div class="contact">
+
+            <p> <img src="assetimg/logoigg.png" type= "icon" width="10%" height="10%"> Simpank Store</p>
+            <p> <img src="assetimg/logowa-removebg-preview.png" type= "icon" width="8%" height="8%"> 896-5371-7346</p>
+            
+
+        </div>
+
+    </div>
+
+
+    <style>
+        body {
+            background-color: rgb(31, 31, 31);
+        }
+    </style>
+
+</body>
+
+</html>

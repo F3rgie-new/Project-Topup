@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(21, 21, 21);
+    color: rgb(213, 212, 212);
+    height: 70px;
+    /* Sesuaikan dengan tinggi logo */
+    position: sticky;
+    top: 0px;
+}
+
+.nav_link {
+    display: flex;
+    font-size: 18px;
+    list-style-type: none;
+    align-items: center;
+    /* Supaya teks sejajar dengan logo */
+}
+
+.nav_link li {
+    margin: 0 15px;
+    /* Kurangi margin supaya lebih padat */
+}
+
+.nav_link img {
+    width: 62px;
+    /* Sesuai dengan ukuran logo */
+    height: 62px;
+}
+
+.nav_link a {
+    color: rgb(213, 212, 212);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav_link a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.main-text{
+    display: block;
+    position: absolute;
+    top: 140px;
+    left: 270px;
+    background-color: rgb(37, 37, 37);
+    width: 1000px;
+    height: 525px;
+    color: rgb(200,200,200);
+    border-radius:20px;
+    
+}
+.main-h1{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.main-text h4{
+    margin-left: 300px;
+    margin-top: 10px;
+    
+}
+
+.main-content{
+    background-color: rgb(31, 31, 31);
+    width: 450px;
+    height: 130px;
+    position: relative;
+    bottom: -200px;
+    left: 550px;
+    border-radius: 15px;
+}
+
+.label-invoice{
+    position: relative;
+    top: 10px;
+    margin-left: 20px; 
+    color: rgb(233, 233, 233);
+
+    
+   
+}
+.input-invoice{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    width: 400px;
+    height: 20px;
+
+    background-color: rgb(135, 135, 135) ;
+    color: rgb(233, 233, 233);
+
+}
+.submit-invoice{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    width: 404px;
+    height: 25px;
+
+    background-color: rgb(215, 153, 30) ;
+    color: rgb(213, 212, 212);
+}
+
